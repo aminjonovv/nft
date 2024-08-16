@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin:  0 auto;
+    padding: 0 15px;
+
+}
+
+body{
+    background-color: black;
+}
+.box{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.big-box{
+    display: flex;
+    width: 607px;
+    justify-content: space-around;
+}
+
+.box-btn{
+    width: 152px;
+    border-radius: 20px;
+    background-color: #A259FF;
+    color: #FFFFFF;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.burger{
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    
+.big-box{
+    display: none;
+}
+.burger{
+    display: block;
+}
+  }

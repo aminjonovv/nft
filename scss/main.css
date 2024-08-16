@@ -1,0 +1,104 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  background-color: black;
+}
+
+.box {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.big-box {
+  display: flex;
+  width: 607px;
+  justify-content: space-around;
+}
+
+.box-btn {
+  width: 152px;
+  border-radius: 20px;
+  background-color: #A259FF;
+  color: #FFFFFF;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.burger {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .big-box {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+}
+.title {
+  width: 1050px;
+  height: 544px;
+  display: flex;
+  margin-top: 100px;
+  padding: 0 50px;
+}
+
+.title-box {
+  width: 510px;
+  height: 544px;
+  gap: 30px;
+}
+
+.title h1 {
+  width: 400px;
+  height: 222px;
+  font-size: 67px;
+  color: white;
+}
+
+.title p {
+  width: 400px;
+  height: 105px;
+  font-size: 22px;
+  color: white;
+}
+
+.title-btn {
+  width: 224px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: #A259FF;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-numbers {
+  width: 40%;
+  display: flex;
+  color: white;
+}
+
+.title-img {
+  width: 510px;
+  height: 109px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.title-piese {
+  width: 510px;
+  height: 109px;
+  border-radius: 0px 0px 20px 20px;
+  background-color: #3B3B3B;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
